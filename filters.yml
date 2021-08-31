@@ -1,0 +1,13 @@
+high_point:
+  match: "^HIGH POINT.*"
+  replace: "High Point"
+  category: "Expenses:Food:Cafes"
+caviar:
+  match: "^CAVIAR\\*"
+  replace: ""
+  cleanser: fix_case
+  category: "Expenses:Food:Restaurants"
+default:
+  match: ""
+  replace: ""
+  category: "Expenses:Uncategorized"
